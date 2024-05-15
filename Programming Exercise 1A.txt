@@ -1,0 +1,7 @@
+1. Tylar Sar 5/14/2024
+2. The program is a ticket booth, where there is 20 tickets available. Max 4 tickets per buyer, 
+Prompt buyer the desired number of tickets, and display remaining tickets after purchase. Repeat until 0 tickets and Display total buyers.
+3. Variables: ticketsAvailable = 20, buyers = 0, purchasedTickets = user input
+4. Function: ticketBooth():, main():
+5. Steps: Make a function to include the code, make necessary variables, and add constraints. At the end, print the total buyers.
+6. https://github.com/valentitsu/COP2373
