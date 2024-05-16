@@ -5,10 +5,12 @@
 # Repeat until 0 tickets.
 # Display total buyers.
 
+#define variables
 def ticketBooth():
     ticketsAvailable = 20
     buyers = 0
 
+#loop until all tickets are sold and add user input.
     while ticketsAvailable > 0:
         print("Tickets available ", ticketsAvailable)
         purchasedTickets = int(input("Desired number of tickets (max 4): "))
