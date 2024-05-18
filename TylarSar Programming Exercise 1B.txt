@@ -1,0 +1,7 @@
+1. Tylar Sar 5/18/2024
+2. The program is a Magic 8 Ball that will repeat the code until the user quits.
+3. Variables: answers, question
+4. No functions
+5. Steps: Create a randomizer, make it respond to questions, use a text file created, the file should be put into a list
+prompt the user to ask a question, randomly display responses, then end the code when the user is ready.
+6. https://github.com/valentitsu/COP2373
