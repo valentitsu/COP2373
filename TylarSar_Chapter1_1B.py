@@ -1,3 +1,4 @@
+#make a file with the responses
 #create a randomizer
 #make it respond to questions
 #use a text file created
@@ -7,28 +8,42 @@
 #program repeats until user is ready to quit
 
 #importing random to randomize answers
+
+responses = [
+    "Yes, of course!",
+    "Without a doubt, yes.",
+    "You can count on it.",
+    "For sure!",
+    "Ask me later!",
+    "I'm not sure.",
+    "I can't tell you right now.",
+    "I'll tell you after my nap.",
+    "No way!",
+    "I don't think so.",
+    "Without a doubt, no.",
+    "The answer is clearly NO!"
+]
+
+
+
+with open("8ball_responses.txt", "w") as file:
+    for response in responses:
+        file.write(response + "\n")
+
 import random
-#opens the 8ball file and reads it
-with open("eight_ball_responses.txt", "r") as f:
-    answers = f.read()
 
-#separates the lines so questions will be replied to with one response
-answers = answers.strip().splitlines(True)
+def responses():
+    with open("8ball_responses.txt", "r") as f:
+        answers = f.read()  # read in text as string
+        answers = answers.splitlines(True)
 
-#ask a question, wait for user input, repeat until user enters 'N'
-question = input("Ask a question or enter \"N\" to quit: ")
-while not(question.upper().startswith("N")):
-    #while statement loops the code until 'N' is entered
+    question = input("Ask a question or enter \"N\" to quit: ")
+    while not (question.upper().startswith("N")):
+        print(random.choice(answers))
+        question = input("\nAsk a question or enter \"N\" to quit: ")
 
-    print(random.choice(answers))
-    question = input("\nAsk a question or enter \"N\" to quit: ") #code repeats
+def main():
+    responses()
 
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    main()
