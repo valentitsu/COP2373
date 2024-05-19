@@ -10,26 +10,27 @@
 #importing random to randomize answers
 
 #create list of responses
-responses = [
-    "Yes, of course!",
-    "Without a doubt, yes.",
-    "You can count on it.",
-    "For sure!",
-    "Ask me later!",
-    "I'm not sure.",
-    "I can't tell you right now.",
-    "I'll tell you after my nap.",
-    "No way!",
-    "I don't think so.",
-    "Without a doubt, no.",
-    "The answer is clearly NO!"
-]
+def listResponses():
+    responses = [
+        "Yes, of course!",
+        "Without a doubt, yes.",
+        "You can count on it.",
+        "For sure!",
+        "Ask me later!",
+        "I'm not sure.",
+        "I can't tell you right now.",
+        "I'll tell you after my nap.",
+        "No way!",
+        "I don't think so.",
+        "Without a doubt, no.",
+        "The answer is clearly NO!"
+    ]
 
 
-#create file in python
-with open("8ball_responses.txt", "w") as file:
-    for response in responses:
-        file.write(response + "\n")
+    #create file in python
+    with open("8ball_responses.txt", "w") as file:
+        for response in responses:
+            file.write(response + "\n")
 
 #randomize responses
 import random
