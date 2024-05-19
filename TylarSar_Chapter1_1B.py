@@ -9,6 +9,7 @@
 
 #importing random to randomize answers
 
+#create list of responses
 responses = [
     "Yes, of course!",
     "Without a doubt, yes.",
@@ -25,23 +26,26 @@ responses = [
 ]
 
 
-
+#create file in python
 with open("8ball_responses.txt", "w") as file:
     for response in responses:
         file.write(response + "\n")
 
+#randomize responses
 import random
 
 def responses():
     with open("8ball_responses.txt", "r") as f:
         answers = f.read()  # read in text as string
-        answers = answers.splitlines(True)
+        answers = answers.splitlines(True) #split the list
 
+#ask a question and repeat until user enters 'N'
     question = input("Ask a question or enter \"N\" to quit: ")
     while not (question.upper().startswith("N")):
         print(random.choice(answers))
         question = input("\nAsk a question or enter \"N\" to quit: ")
 
+#play the code
 def main():
     responses()
 
