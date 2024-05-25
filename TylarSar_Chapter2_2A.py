@@ -1,4 +1,4 @@
-#Find common 30 words and phrases commonly found in spam email
+#Find common 30 words and phrases commonly found in spam email, then write a list of those 30
 #Tell user to write their email
 #scan the messages and add to a list
 #add spam score for every common phrase or word
