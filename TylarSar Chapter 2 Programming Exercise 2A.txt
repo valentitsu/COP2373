@@ -1,0 +1,8 @@
+1. Tylar Sar 5/25/2024
+2. The program is deterrent for spam emails. The user may enter an email and see if the program detects it as spam through 5 levels.
+3. Variables: score, detected_keywords, email_message_lower, keyword_pattern, email_message, spam_keywords, likelihood
+4. Functions: spamWords():, scoreCalc(email_message, keywords):, spamLikelihood(score):, main():
+5. Steps: Find common 30 words and phrases commonly found in spam email, then write a list of those 30 and define it as detected_keywords. 
+Tell the user to write their email, then scan the messages and add to a list of the detected keywords. Add spam score
+for every common phrase or word, then rate the likelihood that the email is a spam message. Finally, display the user's score for the email message.
+6. https://github.com/valentitsu/COP2373
