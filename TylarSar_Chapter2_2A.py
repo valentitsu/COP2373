@@ -3,7 +3,7 @@
 #scan the messages and add to a list
 #add spam score for every common phrase or word
 #rate the likelihood that the message is a spam
-#display user's score
+#display user's score immediately
 
 import re
 
