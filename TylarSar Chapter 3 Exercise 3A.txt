@@ -1,0 +1,7 @@
+1. Tylar Sar 6/1/2024
+2. The program prompts the user for expenses, then the user will type 'done' so the program returns the total, highest, and lowest expense.
+3. Variables: expenses, expense_type, amount, total_expenses, highest_expense, lowest_expense
+4. Functions: userExpenses, analyzeExpenses, main
+5. Steps: prompt the user to write monthy expenses type of expense and the amount. Use the reduce method to analyze the expenses
+and display the total, highest expense, and lowest expense
+6. https://github.com/valentitsu/COP2373
