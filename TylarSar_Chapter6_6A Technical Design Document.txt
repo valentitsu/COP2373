@@ -1,0 +1,6 @@
+1. Tylar Sar 6/22/2024
+2. Make a program that validates phone numbers, social security numbers, and zipcodes. Display invalid if user inputs an invalid form of order.
+3. Variables: pattern, phone, ssn, zip
+4. Functions: validatePhoneNum(phone):, validateSSNNum(ssn):, validateZipcode(zip):
+5. Steps: Create functions for the phone, ssn, and zipcode numbers. Use if and else statements for constraints, then add a display for the numbers if they're valid or invalid.
+6. https://github.com/valentitsu/COP2373
