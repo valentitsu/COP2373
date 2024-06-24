@@ -1,0 +1,6 @@
+1. Tylar Sar 6/23/2024
+2. Make a program that counts sentences, then displays it to the user after.
+3. Variables: sentences, sentence,
+4. Functions: main():
+5. Steps: Make the program accept user's sentences, make the program count how many sentences there are, then display the sentences written and how many sentences there are.
+6. https://github.com/valentitsu/COP2373
