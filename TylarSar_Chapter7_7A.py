@@ -1,7 +1,6 @@
-# Any number of sentences, including sentences which begin with numbers. Display count of sentences.
+# Any number of sentences, including sentences which begin with numbers. Display count of sentences after.
 
 import re
-
 
 def main():
     # User's sentences
