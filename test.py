@@ -1,4 +1,7 @@
-import re
+def main():
+    n = 5
 
-
-# Function to return the list of common spam keywords/phrases
+    if isinstance(n, (int, float)):
+        print('n is an integer or dervied from it.')
+if __name__ == "__main__":
+    main()

@@ -3,29 +3,20 @@
 import re
 
 def main():
-    # User's sentences
-    sentences = []
+    # Prompt user to enter sentences, then press enter when done.
+    s = input("Enter sentences. Press ENTER when done.\n")
+    # Allows for sentence creation.
+    pat = r'[A-Z0-9].*?[.!?](?= [A-Z0-9]|$)'
+    m = re.findall(pat, s, flags=re.DOTALL | re.MULTILINE)
 
-    # Prompt user to enter any amount of sentences
-    print("Enter sentences (type 'done' to end):")
+# Start sentence counter at 0
+    counter = 0
 
-    while True:
-        #Take input from the user
-        sentence = input()
-
-        #Add quit for the user when user ready to end
-        if sentence.lower() == 'done':
-            break
-
-        sentences.append(sentence)
-
-    # Show sentences
-    print("\nThese are the sentences inputted:")
-    for i, sentence in enumerate(sentences, 1):
-        print(f"{i}. {sentence}")
-
-    # Number the sentence(s)
-    print(f"\nAmount of sentences you inputted: {len(sentences)}")
+    # Display and count sentences
+    for i in m:
+        counter+=1
+        print('->', i)
+    print(f'Total Sentences:', counter)
 
 if __name__ == "__main__":
     main()
