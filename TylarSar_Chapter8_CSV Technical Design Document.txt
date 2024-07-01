@@ -1,0 +1,6 @@
+1. Tylar Sar 6/30/2024
+2. Create a program CSV that contains data on student's scores, and can be viewed after.
+3. Variables: studentNum, data, firstName, lastName, exam1, exam2, exam3, writer, reader, filename
+4. Functions: readData(filename),enterGrades(filename):,main():
+5. Steps: import csv, create a function to store user inputted data, create list to store in the file, make the data display its contents when user requests.
+6. https://github.com/valentitsu/COP2373
