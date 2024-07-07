@@ -1,0 +1,6 @@
+1. Tylar Sar 7/6/2024
+2. Create a bank account that includes name, account num, amount, and interest rate. Include __init__ and __str__ method.
+3. Variables: self.user = user, self.accountNum = account, self.amount = amount, self.interest = interest
+4. Functions: __init__(self, user, accountNum, interest):, changeInterest(self, newRate):, deposit(self, amount):, withdraw(self, amount):, balance(self):, calcInterest(self, days):, __str__(self):, test():
+5. Steps: Create BankAcct Class which contains name, account number, amount, and interest rate. There should be functions for each. Add a test function at the end to test all of them.
+6. https://github.com/valentitsu/COP2373
